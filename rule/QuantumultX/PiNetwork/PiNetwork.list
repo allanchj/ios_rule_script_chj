@@ -3,4 +3,7 @@ DOMAIN-SUFFIX,minepi.com
 DOMAIN-SUFFIX,socialchain.app
 DOMAIN-SUFFIX,pi.app
 DOMAIN-SUFFIX,pinet.com
+DOMAIN-SUFFIX,api.onramper.com
+DOMAIN-SUFFIX,cdn.onramper.com
+DOMAIN-SUFFIX,buy.onramper.com
 IP-CIDR,141.193.213.0/24,no-resolve
