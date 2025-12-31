@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,ads.amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,aax-fe-sin.amazon-adsystem.com,REJECT
 DOMAIN-SUFFIX,ads.inmobi.com,REJECT
 DOMAIN-SUFFIX,ads.tntk.be,REJECT
+DOMAIN-SUFFIX,mtalk.google.com,REJECT
 DOMAIN-SUFFIX,a1.tntk.be,REJECT
 DOMAIN-SUFFIX,paypal-metrics.com,REJECT
 DOMAIN-SUFFIX,ads.pubmatic.com,REJECT
