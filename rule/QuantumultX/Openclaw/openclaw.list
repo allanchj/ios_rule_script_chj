@@ -1,0 +1,14 @@
+# OpenClaw 核心域名 (API & WebSocket)
+HOST-SUFFIX, openclaw.ai, 新加坡
+HOST-KEYWORD, openclaw, 新加坡
+
+# 默认模型提供商 (根据您配置的 Provider 选填)
+HOST-SUFFIX, anthropic.com, 美国
+HOST-SUFFIX, openai.com, 美国
+HOST-SUFFIX, googleapis.com, 美国
+HOST-SUFFIX, ssec.ai, 美国
+
+# 常用集成频道 (WhatsApp/Telegram/Discord)
+HOST-SUFFIX, telegram.org, 台湾
+HOST-SUFFIX, discord.gg, 美国
+HOST-SUFFIX, whatsapp.net, 美国
