@@ -9,6 +9,6 @@ HOST-SUFFIX, googleapis.com
 HOST-SUFFIX, ssec.ai
 
 # 常用集成频道 (WhatsApp/Telegram/Discord)
-HOST-SUFFIX, telegram.org
-HOST-SUFFIX, discord.gg
-HOST-SUFFIX, whatsapp.net
+# HOST-SUFFIX, telegram.org
+# HOST-SUFFIX, discord.gg
+# HOST-SUFFIX, whatsapp.net
