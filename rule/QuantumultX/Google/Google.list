@@ -726,3 +726,14 @@ IP-CIDR,173.194.0.0/16,Google
 IP-CIDR,216.73.80.0/20,Google
 IP-CIDR,74.125.0.0/16,Google
 IP6-CIDR,2620:120:e000::/40,Google
+# === Gemini / Glic 专用增强规则 ===
+HOST-KEYWORD,gemini,Google
+HOST-KEYWORD,glic,Google
+DOMAIN-SUFFIX,pa.googleapis.com,Google
+DOMAIN-SUFFIX,gemini.google.com,Google
+DOMAIN-SUFFIX,ai.google.com,Google
+DOMAIN-SUFFIX,glic.google.com,Google   # 如果存在
+HOST-SUFFIX,googleapis.com,Google     # 已经有了，但确认优先
+
+
+
