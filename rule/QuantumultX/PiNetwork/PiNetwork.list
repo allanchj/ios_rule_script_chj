@@ -2,9 +2,9 @@
 #pi network 共识端口分流
 # NAME: PI
 # 1.【网页分流层】高优先级：让浏览器看账本、查资料秒开
-HOST, blockexplorer.minepi.com, 新加坡节点
-HOST, blockexplorer.pinet.com, 新加坡节点
-HOST-SUFFIX, minepi.com, 新加坡节点
+HOST, blockexplorer.minepi.com, 新加坡
+HOST, blockexplorer.pinet.com, 新加坡
+HOST-SUFFIX, minepi.com, 新加坡
 
 # 2.【Node 同步层】精准剥离：强制走直连，从而撞上 pi_vpn.sh 进入 OpenVPN
 HOST, node.pinet.com, DIRECT
@@ -20,6 +20,7 @@ OR, ((DEST-PORT, 31400-31409)), DIRECT
 DOMAIN-SUFFIX, socialchain.app, DIRECT
 DOMAIN-SUFFIX, pi.app, DIRECT
 DOMAIN-SUFFIX, pinet.com, DIRECT
+DOMAIN-SUFFIX, portchecker.co, DIRECT
 DOMAIN-SUFFIX, api.onramper.com, DIRECT
 DOMAIN-SUFFIX, cdn.onramper.com, DIRECT
 DOMAIN-SUFFIX, buy.onramper.com, DIRECT
