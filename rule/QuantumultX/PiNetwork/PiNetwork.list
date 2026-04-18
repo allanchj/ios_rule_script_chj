@@ -1,21 +1,45 @@
 # NAME: PI
 #pi network 共识端口分流
-DEST-PORT,31400,DIRECT
-DEST-PORT,31401,DIRECT
-DEST-PORT,31402,DIRECT
-DEST-PORT,31403,DIRECT
-DEST-PORT,31404,DIRECT
-DEST-PORT,31405,DIRECT
-DEST-PORT,31406,DIRECT
-DEST-PORT,31407,DIRECT
-DEST-PORT,31408,DIRECT
-DEST-PORT,31409,DIRECT
-HOST-KEYWORD,pi,DIRECT
-DOMAIN-SUFFIX,minepi.com,DIRECT
-DOMAIN-SUFFIX,socialchain.app,DIRECT
-DOMAIN-SUFFIX,pi.app,DIRECT
-DOMAIN-SUFFIX,pinet.com,DIRECT
-DOMAIN-SUFFIX,api.onramper.com,DIRECT
-DOMAIN-SUFFIX,cdn.onramper.com,DIRECT
-DOMAIN-SUFFIX,buy.onramper.com,DIRECT
-IP-CIDR,141.193.213.0/24,no-resolve
+# NAME: PI
+# 1.【网页分流层】高优先级：让浏览器看账本、查资料秒开
+HOST, blockexplorer.minepi.com, 新加坡节点
+HOST, blockexplorer.pinet.com, 新加坡节点
+HOST-SUFFIX, minepi.com, 新加坡节点
+
+# 2.【Node 同步层】精准剥离：强制走直连，从而撞上 pi_vpn.sh 进入 OpenVPN
+HOST, node.pinet.com, DIRECT
+HOST, sync.minepi.com, DIRECT
+HOST, node-auth.system.pinet.com, DIRECT
+
+# 3.【端口保底层】防止 31400-31409 握手包漏网
+# 如果你的 QuanX 依然对 DEST-PORT 报错，请改用 IP-CIDR 大网格拦截（见下方建议）
+# 如果不报错，则保留以下行：
+OR, ((DEST-PORT, 31400-31409)), DIRECT
+
+# 4.【其他生态域名】
+DOMAIN-SUFFIX, socialchain.app, DIRECT
+DOMAIN-SUFFIX, pi.app, DIRECT
+DOMAIN-SUFFIX, pinet.com, DIRECT
+DOMAIN-SUFFIX, api.onramper.com, DIRECT
+DOMAIN-SUFFIX, cdn.onramper.com, DIRECT
+DOMAIN-SUFFIX, buy.onramper.com, DIRECT
+
+# 5.【已知核心 IP 段】
+IP-CIDR, 162.255.119.0/24, DIRECT
+IP-CIDR, 104.16.0.0/12, DIRECT
+IP-CIDR, 141.193.213.0/24, no-resolve, DIRECT
+
+# 6.【关键字降维打击】最后兜底
+HOST-KEYWORD, pi, DIRECT
+
+#DEST-PORT,31400,DIRECT
+#DEST-PORT,31401,DIRECT
+#DEST-PORT,31402,DIRECT
+#DEST-PORT,31403,DIRECT
+#DEST-PORT,31404,DIRECT
+#DEST-PORT,31405,DIRECT
+#DEST-PORT,31406,DIRECT
+#DEST-PORT,31407,DIRECT
+#DEST-PORT,31408,DIRECT
+#DEST-PORT,31409,DIRECT
+
