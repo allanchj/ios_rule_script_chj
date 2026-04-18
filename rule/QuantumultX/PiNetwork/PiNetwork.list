@@ -1,21 +1,21 @@
 # NAME: PI
 #pi network 共识端口分流
-desk-port, 31400, direct
-desk-port, 31401, direct
-dest-port, 31402, direct
-desk-port, 31403, direct
-desk-port, 31404, direct
-desk-port, 31405, direct
-dest-port, 31406, direct
-desk-port, 31407, direct
-desk-port, 31408, direct
-dest-port, 31409, direct
-host-keyword, pi, direct
-DOMAIN-SUFFIX, minepi.com, direct
-DOMAIN-SUFFIX, socialchain.app, direct
-DOMAIN-SUFFIX, pi.app, direct
-DOMAIN-SUFFIX, pinet.com, direct
-DOMAIN-SUFFIX, api.onramper.com, direct
-DOMAIN-SUFFIX, cdn.onramper.com, direct
-DOMAIN-SUFFIX, buy.onramper.com, direct
+desk-port,31400,direct
+desk-port,31401,direct
+dest-port,31402,direct
+desk-port,31403,direct
+desk-port,31404,direct
+desk-port,31405,direct
+dest-port,31406,direct
+desk-port,31407,direct
+desk-port,31408,direct
+dest-port,31409,direct
+host-keyword,pi,direct
+DOMAIN-SUFFIX,minepi.com,direct
+DOMAIN-SUFFIX,socialchain.app,direct
+DOMAIN-SUFFIX,pi.app,direct
+DOMAIN-SUFFIX,pinet.com,direct
+DOMAIN-SUFFIX,api.onramper.com,direct
+DOMAIN-SUFFIX,cdn.onramper.com,direct
+DOMAIN-SUFFIX,buy.onramper.com,direct
 IP-CIDR,141.193.213.0/24,no-resolve
