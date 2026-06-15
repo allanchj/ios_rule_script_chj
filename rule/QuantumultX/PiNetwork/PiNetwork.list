@@ -10,6 +10,10 @@ HOST-SUFFIX, minepi.com, 新加坡
 HOST, node.pinet.com, DIRECT
 HOST, sync.minepi.com, DIRECT
 HOST, node-auth.system.pinet.com, DIRECT
+#端口检测网站直连
+DOMAIN-SUFFIX, portchecker.co, DIRECT
+DOMAIN-SUFFIX, pi-mods.de/nodeports, DIRECT
+DOMAIN-SUFFIX, pi-node.cn, DIRECT
 
 # 3.【端口保底层】防止 31400-31409 握手包漏网
 # 如果你的 QuanX 依然对 DEST-PORT 报错，请改用 IP-CIDR 大网格拦截（见下方建议）
