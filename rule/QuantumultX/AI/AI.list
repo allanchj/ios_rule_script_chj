@@ -64,7 +64,8 @@ HOST-SUFFIX,anthropic.com,DIRECT
 HOST-SUFFIX,claude.ai,DIRECT
 HOST-SUFFIX,claude.com,DIRECT
 HOST-SUFFIX,claudeusercontent.com,DIRECT
-host_suffix,clau.de, DIRECT
+host-suffix,clau.de, DIRECT
+HOST-SUFFIX,withpersona.com,DIRECT
 
 
 # 4. 💚 Perplexity AI
