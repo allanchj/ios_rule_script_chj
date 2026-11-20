@@ -83,4 +83,4 @@ HOST-SUFFIX,x.ai,DIRECT
 HOST-SUFFIX,grok.com,DIRECT
 
 # 7. 🧡othen
-DOMAIN-SUFFIX,nuancelabs.ai,direct
+HOST-SUFFIX,nuancelabs.ai,DIRECT
