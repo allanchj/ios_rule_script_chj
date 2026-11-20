@@ -24,7 +24,7 @@ HOST-KEYWORD,generativelanguage,DIRECT
 # 2. 🖤 OpenAI ChatGPT
 HOST,browser-intake-datadoghq.com,DIRECT
 HOST,chat.openai.com.cdn.cloudflare.net,DIRECT
-HOST,openai-api.arkoselabs.com,DIRECT
+HOST,challenges.cloudflare.com,DIRECT
 HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,DIRECT
 HOST,openaicomproductionae4b.blob.core.windows.net,DIRECT
 HOST,production-openaicom-storage.azureedge.net,DIRECT
@@ -32,11 +32,11 @@ HOST,static.cloudflareinsights.com,DIRECT
 HOST-SUFFIX,ai.com,DIRECT
 HOST-SUFFIX,algolia.net,DIRECT
 HOST-SUFFIX,api.statsig.com,DIRECT
+HOST-SUFFIX,arkoselabs.com,DIRECT
 HOST-SUFFIX,auth0.com,DIRECT
+HOST-SUFFIX,chat.com,DIRECT
 HOST-SUFFIX,chatgpt.com,DIRECT
 HOST-SUFFIX,chatgpt.livekit.cloud,DIRECT
-HOST-SUFFIX,client-api.arkoselabs.com,DIRECT
-HOST-SUFFIX,events.statsigapi.net,DIRECT
 HOST-SUFFIX,featuregates.org,DIRECT
 HOST-SUFFIX,host.livekit.cloud,DIRECT
 HOST-SUFFIX,identrust.com,DIRECT
@@ -51,6 +51,8 @@ HOST-SUFFIX,openaiapi-site.azureedge.net,DIRECT
 HOST-SUFFIX,openaicom.imgix.net,DIRECT
 HOST-SUFFIX,segment.io,DIRECT
 HOST-SUFFIX,sentry.io,DIRECT
+HOST-SUFFIX,sora.com,DIRECT
+HOST-SUFFIX,statsigapi.net,DIRECT
 HOST-SUFFIX,stripe.com,DIRECT
 HOST-SUFFIX,turn.livekit.cloud,DIRECT
 HOST-KEYWORD,openai,DIRECT
