@@ -81,3 +81,6 @@ HOST-SUFFIX,chorus.sh,DIRECT
 # 6. 🖤 埃隆马斯克 Grok (X.ai)
 HOST-SUFFIX,x.ai,DIRECT
 HOST-SUFFIX,grok.com,DIRECT
+
+# 7. 🧡othen
+DOMAIN-SUFFIX,nuancelabs.ai,direct
